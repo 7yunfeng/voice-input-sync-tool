@@ -36,10 +36,15 @@ python server.py
 
 ```powershell
 pip install pyinstaller
-pyinstaller --onefile --windowed --name "VoiceInputSyncTool" server.py
+python -m PyInstaller --onefile --windowed --name "VoiceInputSyncTool" server.py
 ```
 
 构建产物会生成到 `dist` 目录。
+
+## 发布
+
+推送形如 `v*.*.*` 的标签后，GitHub Actions 会自动在 Windows 环境构建 `VoiceInputSyncTool.exe`，
+并把它上传到对应的 GitHub Release。
 
 ## 说明
 

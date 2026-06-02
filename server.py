@@ -25,7 +25,7 @@ import websockets
 import pystray
 from pystray import MenuItem as item
 
-VERSION = "0.2.0"
+VERSION = "0.2.1"
 GITHUB_REPO = "7yunfeng/voice-input-sync-tool"
 APP_NAME = "语音输入法同步工具"
 APP_EXECUTABLE_NAME = "VoiceInputSyncTool"
